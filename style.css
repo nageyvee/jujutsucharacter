@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    margin: 50px 100px 100px 50px;
+    color: black;
+    text-align: justify;
+}
+h1 {
+    color:cyan;
+    text-align: center;
+    font-style: normal;
+    font-size: xx-large;
+    animation-name: juju;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes juju {
+    0% {color: aqua;}
+    25% {color: springgreen;}
+    50% {color: violet;}
+    75% {color: red;}
+    100% {color: wheat;}
+}
+#opi {
+    font-style: italic;
+    color:darkred;
+    text-align: center;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.yu {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+}
+.to {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+}
+.song1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.dm {
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateX(-50%);
+    margin: 0%;
+    top: 50%;
+    height: 200px;
+    position: relative;
+}
